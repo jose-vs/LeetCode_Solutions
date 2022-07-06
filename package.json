@@ -1,0 +1,33 @@
+{
+  "name": "leetcode_solutions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jose-vs/LeetCode_Solutions.git",
+  "author": "Jose Santos <67150374+jose-vs@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "format": "npm run format:js && npm run format:md && npm run format:ts",
+    "format:js": "prettier --write \"src/**/*.js\"",
+    "format:md": "prettier --write \"**/*.md\"",
+    "format:ts": "prettier --write \"src/**/*.ts{,x}\"",
+    "checkTs": "tsc --noEmit"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write"
+    ]
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": false,
+    "trailingComma": "all"
+  }
+}
