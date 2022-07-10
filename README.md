@@ -6,6 +6,6 @@ This is the solutions collection of my LeetCode submissions, most of them are pr
 
 **Progress: 171/2520 Solutions**
 
-| ID  | Title | Solution | Difficulty |
-|-----|-------|----------|------------|
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)| [TypeScript](./src/two-sum/main.ts)| Easy |
+| ID  | Title                                             | Solution                            | Difficulty |
+| --- | ------------------------------------------------- | ----------------------------------- | ---------- |
+| 1   | [Two Sum](https://leetcode.com/problems/two-sum/) | [TypeScript](./src/two-sum/main.ts) | Easy       |
