@@ -25,7 +25,6 @@ class Dictionary {
       var set = new Set<string>([...word])
 
       console.log(word, set)
-
     })
   }
 

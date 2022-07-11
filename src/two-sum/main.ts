@@ -31,7 +31,7 @@ const twoSumOptimized = (nums: number[], target: number): number[] => {
   var map = new Map<number, number>()
 
   nums.some((num, index) => {
-    var search: number = target -num
+    var search: number = target - num
     if (map.has(search)) {
       ans = [index, map.get(search)!]
       return
