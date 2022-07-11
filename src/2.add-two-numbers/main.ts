@@ -36,13 +36,10 @@ const addTwoNumbersBruteForce = (l1: ListNode | null, l2: ListNode | null): List
   var val: number = l1.val + l2.val
   var next: ListNode | null = addTwoNumbersBruteForce(l1.next, l2.next)
 
-
-
   return new ListNode(val, next)
 }
 
 console.log("bruh", addTwoNumbersBruteForce(initNode([1, 1]), initNode([2])))
-
 
 /*
 Input: l1 = [2,4,3], l2 = [5,6,4]
